@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>For You, My Love 💖</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      background: linear-gradient(to right, #ff9a9e, #fad0c4);
+      font-family: 'Segoe UI', sans-serif;
+      text-align: center;
+      color: #fff;
+      margin: 0;
+      padding: 0;
+    }
+
+    h1 {
+      font-size: 3em;
+      margin: 30px 0 10px;
+    }
+
+    p {
+      font-size: 1.3em;
+      max-width: 600px;
+      margin: 0 auto 20px;
+    }
+
+    .carousel {
+      display: flex;
+      overflow-x: scroll;
+      scroll-snap-type: x mandatory;
+      -webkit-overflow-scrolling: touch;
+      margin: 30px auto;
+      width: 90%;
+      max-width: 700px;
+      gap: 20px;
+      padding-bottom: 30px;
+    }
+
+    .carousel::-webkit-scrollbar {
+      display: none;
+    }
+
+    .slide {
+      scroll-snap-align: center;
+      flex: none;
+      background: rgba(255, 255, 255, 0.1);
+      border-radius: 20px;
+      padding: 20px;
+      min-width: 80%;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+      transition: transform 0.3s ease;
+    }
+
+    .slide:hover {
+      transform: scale(1.03);
+    }
+
+    .slide img {
+      max-width: 100%;
+      border-radius: 15px;
+      margin-bottom: 15px;
+    }
+
+    footer {
+      margin-top: 50px;
+      font-size: 1em;
+      opacity: 0.7;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>For You, My Love 💗</h1>
+  <p>Swipe through these little love notes and memories 🥰</p>
+
+  <div class="carousel">
+    <div class="slide">
+      <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD/..." alt="Her Photo 1">
+      <p>You light up my life with your smile 💫</p>
+    </div>
+    <div class="slide">
+      <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAeAB4AAD/..." alt="Her Photo 2">
+      <p>Your beauty, inside and out, inspires me every day 💖</p>
+    </div>
+    <div class="slide">
+      <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/..." alt="Her Photo 3">
+      <p>You’re not just special — you’re my whole universe ✨</p>
+    </div>
+    <div class="slide">
+      <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/..." alt="Her Photo 4">
+      <p>Every moment with you is a memory worth cherishing ❤️</p>
+    </div>
+    <div class="slide">
+      <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAZABkAAD/..." alt="Her Photo 5">
+      <p>There’s no one else I’d rather be silly with 😄</p>
+    </div>
+  </div>
+
+  <footer>
+    Made with infinite love by Piyush 💕
+  </footer>
+
+</body>
+</html>
